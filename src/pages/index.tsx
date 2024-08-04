@@ -6,9 +6,8 @@ const Index = () => {
   const router = useRouter();
 
   const navigateTo = () => {
-
     console.log("hello");
-    
+
     router.push("/page1");
   };
 
@@ -16,7 +15,7 @@ const Index = () => {
     <div className="container">
       <Link href={"/cars"}>
         <text id={"btata"} className="title">
-          cars{" "}
+          cars
         </text>
       </Link>
       <text onClick={navigateTo}>Code Zone </text>
