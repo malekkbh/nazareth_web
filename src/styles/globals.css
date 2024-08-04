@@ -31,3 +31,21 @@ body {
     text-wrap: balance;
   }
 }
+
+text {
+  color: red;
+  cursor: pointer;
+}
+
+.title {
+  color: green !important;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+#btata {
+  color: yellow;
+}
